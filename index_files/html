@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<!-- saved from url=(0080)file:///C:/Users/SHUBHAM%20SALUNKHE/OneDrive/Desktop/it's%20shubham's/index.html -->
+<html lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <style media="screen">
+      .cont{
+        border-radius: 100px;
+        height: 1400px;
+        width: 800px;
+        border:2px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        background-color:gray;
+        opacity: 5;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .cont img{
+        width: 1500px;
+        border-radius: 100px;
+      }
+      .box1{
+        border-radius: 50px;
+        height: 150px;
+        width: 1000px;
+        border:2px solid black;
+        margin: 20px;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: aqua;
+        background: url('gass.jpg');
+      position: absolute;
+      left:200px;
+      box-shadow: black 10px 10px;
+      }
+      .a{
+        height:150px;
+        border-radius: 2px solid pink;
+      }
+      .a img{
+        height:120px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 120px;
+        position: absolute;
+        top:58px;
+        border-radius: 10px;
+      }
+      .a button{
+        position: absolute;
+        top:170px;
+        left: 50px;
+        width: 100px;
+        background-color: pink;
+        border-radius: 10px;
+
+
+      }
+      .a button:hover{
+        background-color: yellow;
+      }
+
+      .b{
+        height:150px;
+        position: absolute;
+        left:210px;
+        top:55px;
+      }
+      .b img{
+        height:120px;
+        width: 120px;
+        border-radius: 10px;
+      }
+      .b button{
+        position: absolute;
+        top:110px;
+        left:0px;
+        width: 100px;
+        background-color: pink;
+        border-radius: 10px;
+
+      }
+      .b button:hover{
+        background-color: yellow;
+      }
+
+      .c{
+        height:150px;
+        border-radius: 2px solid pink;
+        position: absolute;
+        left:390px;
+        top:55px;
+      }
+      .c img{
+        height:120px;
+       width: 120px;
+       border-radius: 10px;
+      }
+      .c button{
+        position: absolute;
+        top:110px;
+        left:0px;
+      width: 100px;
+      background-color: pink;
+      border-radius: 10px;
+    }
+    .c button:hover{
+      background-color: yellow;
+    }
+
+      .d{
+        height:150px;
+        border-radius: 2px solid pink;
+        position: absolute;
+        left:570px;
+        top:55px;
+      }
+      .d img{
+        height:120px;
+       width: 120px;
+       border-radius: 10px;
+      }
+      .d button{
+        position: absolute;
+        top:110px;
+        left:0px;
+      width: 100px;
+      background-color: pink;
+      border-radius: 10px;
+      }
+      .d button:hover{
+        background-color: yellow;
+      }
+
+      .e{
+        height:150px;
+        border-radius: 2px solid pink;
+        position: absolute;
+        left:760px;
+        top:55px;
+      }
+      .e img{
+        height:120px;
+       width: 120px;
+       border-radius: 10px;
+      }
+      .e button{
+        position: absolute;
+        top:110px;
+        left:0px;
+      width: 100px;
+      background-color: pink;
+      border-radius: 10px;
+    }
+    .e button:hover{
+      background-color: yellow;
+    }
+/*for box 2*/
+.box2{
+  border-radius: 50px;
+          background: url('gass.jpg');
+  height: 150px;
+  width: 1000px;
+  border:2px solid black;
+  margin: 20px;
+  padding: 20px;
+  position: absolute;
+  top:200px;
+   left:0px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: aqua;
+  position: absolute;
+  box-shadow: black 10px 10px;
+}
+.f{
+  height:150px;
+  border-radius: 2px solid pink;
+}
+.f img{
+  position: absolute;
+  top:50px;
+  height:120px;
+  width: 120px;
+  border-radius: 10px;
+}
+.f button{
+  position: absolute;
+  top:160px;
+  left: 50px;
+  width: 100px;
+  background-color: pink;
+  border-radius: 10px;
+}
+.f button:hover{
+  background-color: yellow;
+}
+
+.g{
+  height:150px;
+  border-radius: 2px solid pink;
+  position: absolute;
+  left:210px;
+  top:55px;
+}
+.g img{
+  height:120px;
+  width: 120px;
+  border-radius: 10px;
+}
+.g button{
+  position: absolute;
+  top:110px;
+  left:0px;
+  width: 100px;
+  background-color: pink;
+  border-radius: 10px;
+}
+.g button:hover{
+  background-color: yellow;
+}
+.h{
+  height:150px;
+  border-radius: 2px solid pink;
+  position: absolute;
+  left:390px;
+  top:55px;
+}
+.h img{
+  height:120px;
+  width: 120px;
+border-radius: 10px;
+}
+.h button{
+  position: absolute;
+  top:110px;
+  left:0px;
+width: 100px;
+background-color: pink;
+border-radius: 10px;
+}
+.h button:hover{
+  background-color: yellow;
+}
+
+.i{
+  height:150px;
+  border-radius: 2px solid pink;
+  position: absolute;
+  left:570px;
+  top:55px;
+}
+.i img{
+  height:120px;
+  width: 120px;
+border-radius: 10px;
+}
+.i button{
+  position: absolute;
+  top:110px;
+  left:0px;
+width: 100px;
+background-color: pink;
+border-radius: 10px;
+}
+.i button:hover{
+  background-color: yellow;
+}
+
+
+.j{
+  height:150px;
+  border-radius: 2px solid pink;
+  position: absolute;
+  left:760px;
+  top:55px;
+}
+.j img{
+  height:120px;
+  width: 120px;
+border-radius: 10px;
+}
+.j button{
+  position: absolute;
+  top:110px;
+  left:0px;
+width: 100px;
+background-color: pink;
+border-radius: 10px;
+}
+.j button:hover{
+  background-color: yellow;
+}
+/*for box3*/
+
+.box3{
+    box-shadow: black 10px 10px;
+  background-color: aqua;
+  border-radius: 50px;
+  height: 150px;
+  width: 1000px;
+  border:2px solid black;
+  margin: 20px;
+  padding: 20px;
+  position: absolute;
+  top:450px;
+  left:0px;
+  display: flex;
+  flex-wrap: wrap;
+          background: url('gass.jpg');
+          position: absolute;
+          left:200px;
+}
+.k{
+  height:150px;
+  border-radius: 2px solid pink;
+}
+.k img{
+  height:120px;
+  width: 120px;
+  position: absolute;
+  top: 50px;
+  border-radius: 10px;
+}
+.k button{
+  position: absolute;
+  top:160px;
+  left: 50px;
+  width: 100px;
+  background-color: pink;
+  border-radius: 10px;
+}
+.k button:hover{
+  background-color: yellow;
+}
+
+.l{
+  height:150px;
+  border-radius: 2px solid pink;
+  position: absolute;
+  left:210px;
+  top:55px;
+}
+.l img{
+  height:120px;
+  width: 120px;
+  border-radius: 10px;
+}
+.l button{
+  position: absolute;
+  top:110px;
+  left:0px;
+  width: 100px;
+  background-color: pink;
+  border-radius: 10px;
+}
+.l button:hover{
+  background-color: yellow;
+}
+
+.m{
+  height:150px;
+  border-radius: 2px solid pink;
+  position: absolute;
+  left:390px;
+  top:55px;
+}
+.m img{
+  height:120px;
+  width: 120px;
+border-radius: 10px;
+}
+.m button{
+  position: absolute;
+  top:110px;
+  left:0px;
+width: 100px;
+background-color: pink;
+border-radius: 10px;
+}
+.m button:hover{
+  background-color: yellow;
+}
+
+.n{
+  height:150px;
+  border-radius: 2px solid pink;
+  position: absolute;
+  left:570px;
+  top:55px;
+}
+.n img{
+  height:120px;
+  width: 120px;
+border-radius: 10px;
+}
+.n button{
+  position: absolute;
+  top:110px;
+  left:0px;
+width: 100px;
+background-color: pink;
+border-radius: 10px;
+}
+.n button:hover{
+  background-color: yellow;
+}
+
+
+.o{
+  height:150px;
+  border-radius: 2px solid pink;
+  position: absolute;
+  left:760px;
+  top:55px;
+}
+.o img{
+  height:120px;
+  width: 120px;
+border-radius: 10px;
+}
+.o button{
+  position: absolute;
+  top:110px;
+  left:0px;
+width: 100px;
+background-color: pink;
+border-radius: 10px;
+}
+.o button:hover{
+  background-color: yellow;
+}
+
+
+/*for box4*/
+
+.box4{
+  background-color: aqua;
+  border-radius: 50px;
+  height: 150px;
+  width: 1000px;
+  border:2px solid black;
+  margin: 20px;
+  padding: 20px;
+  position: absolute;
+  top:680px;
+  left:0px;
+  display: flex;
+
+            box-shadow: black 10px 10px;
+            background: url('gass.jpg');
+  flex-wrap: wrap;
+  position: absolute;
+  left:200px;
+}
+.p{
+  height:150px;
+  border-radius: 2px solid pink;
+}
+.p img{
+  height:120px;
+  width: 120px;
+  position: absolute;
+  top: 50px;
+  border-radius: 10px;
+}
+.p button{
+  position: absolute;
+  top:160px;
+  left: 50px;
+  width: 100px;
+  background-color: pink;
+  border-radius: 10px;
+}
+
+.p button:hover{
+  background-color: yellow;
+}
+.q{
+  height:150px;
+  border-radius: 2px solid pink;
+  position: absolute;
+  left:210px;
+  top:55px;
+}
+.q img{
+  height:120px;
+  width: 120px;
+  border-radius: 10px;
+}
+.q button{
+  position: absolute;
+  top:110px;
+  left:0px;
+  width: 100px;
+  background-color: pink;
+  border-radius: 10px;
+}
+.q button:hover{
+  background-color: yellow;
+}
+
+.r{
+  height:150px;
+  border-radius: 2px solid pink;
+  position: absolute;
+  left:390px;
+  top:55px;
+}
+.r img{
+  height:120px;
+width: 120px;
+border-radius: 10px;
+}
+.r button{
+  position: absolute;
+  top:110px;
+  left:0px;
+width: 100px;
+border-radius: 10px;
+background-color: pink;
+}
+.r button:hover{
+  background-color: yellow;
+}
+.s{
+  height:150px;
+  border-radius: 2px solid pink;
+  position: absolute;
+  left:570px;
+  top:55px;
+}
+.s img{
+  height:120px;
+width: 120px;
+border-radius: 10px;
+}
+.s button{
+  position: absolute;
+  top:110px;
+  border-radius: 10px;
+  left:0px;
+width: 100px;
+background-color: pink;
+}
+.s button:hover{
+  background-color: yellow;
+}
+
+
+.t{
+  height:150px;
+  border-radius: 2px solid pink;
+  position: absolute;
+  left:760px;
+  top:55px;
+}
+.t img{
+  height:120px;
+width: 120px;
+border-radius: 10px;
+}
+.t button{
+  border-radius: 10px;
+  position: absolute;
+  top:110px;
+  left:0px;
+width: 100px;
+background-color: pink;
+
+}
+.t button:hover{
+  background-color: yellow;
+}
+
+/*box5*/
+
+/*for box5*/
+
+.box5{
+  background-color: aqua;
+  height: 150px;
+  width: 1000px;
+  border:2px solid black;
+  margin: 20px;
+  padding: 20px;
+  position: absolute;
+  top:900px;
+  left:0px;
+          background: url('gass.jpg');
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 50px;
+  position: absolute;
+  left:200px;
+    box-shadow: black 10px 10px;
+}
+.u{
+  height:150px;
+  border-radius: 2px solid pink;
+}
+.u img{
+  height:120px;
+  width: 120px;
+  position: absolute;
+  top:50px;
+  border-radius: 10px;
+}
+.u button{
+  position: absolute;
+  top:160px;
+  left: 50px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: pink;
+}
+.u button:hover{
+  background-color: yellow;
+}
+
+.v{
+  height:150px;
+  border-radius: 2px solid pink;
+  position: absolute;
+  left:210px;
+  top:55px;
+}
+.v img{
+  height:120px;
+  width: 120px;
+  border-radius: 10px;
+}
+.v button{
+  position: absolute;
+  top:110px;
+  left:0px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: pink;
+}
+.v button:hover{
+  background-color: yellow;
+}
+
+.w{
+  height:150px;
+  border-radius: 2px solid pink;
+  position: absolute;
+  left:390px;
+  top:55px;
+}
+.w img{
+  height:120px;
+width: 120px;
+border-radius: 10px;
+}
+.w button{
+  position: absolute;
+  top:110px;
+  left:0px;
+width: 100px;
+background-color: pink;
+border-radius: 10px;
+}
+.w button:hover{
+  background-color: yellow;
+}
+
+.x{
+  height:150px;
+  border-radius: 2px solid pink;
+  position: absolute;
+  left:570px;
+  top:55px;
+}
+.x img{
+  height:120px;
+width: 100px;
+border-radius: 10px;
+}
+.x button{
+  position: absolute;
+  top:110px;
+  left:0px;
+width: 100px;
+background-color: pink;
+border-radius: 10px;
+}
+.x button:hover{
+  background-color: yellow;
+
+}
+
+
+.y{
+  height:150px;
+  border-radius: 2px solid pink;
+  position: absolute;
+  left:760px;
+  top:55px;
+}
+.y img{
+  height:120px;
+width: 120px;
+border-radius: 10px;
+}
+.y button{
+  position: absolute;
+  top:110px;
+  left:0px;
+width: 100px;
+background-color: pink;
+border-radius: 10px;
+}
+.y button:hover{
+  background-color: yellow;
+}
+/**/
+
+
+
+.box6{
+  background-color: aqua;
+  height: 150px;
+  width: 300px;
+  border:2px solid black;
+  margin: 20px;
+  padding: 20px;
+  position: absolute;
+  top:200px;
+  left:250px;
+  right: 50px;
+  background: url('gass.jpg');
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 50px;
+
+  box-shadow: black 10px 10px;
+}
+.z{
+  height:150px;
+  border-radius: 2px solid pink;
+  position: absolute;
+  left:auto;
+}
+.z img{
+  height:120px;
+  width: 120px;
+  position: absolute;
+  top:20px;
+  border-radius: 10px;
+  left:90px;
+}
+.z button{
+  position: absolute;
+  top:140px;
+  left:90px;
+width: 100px;
+background-color: pink;
+border-radius: 10px;
+}
+.z button:hover{
+  background-color: yellow;
+}
+
+    </style>
+  </head>
+  <body>
+
+    <div class="cont">
+      <img src="./index_files/sky.jpg" alt="">
+      <div class="box1">
+                                     <div class="a">
+                                       <img src="./index_files/A Letter - Alphabets.jpg" id="apple">
+                                       <button type="button" onclick="afor()" onmousedown="a.play();"> A For...</button>
+                                     </div>
+
+                                     <div class="b">
+                                       <img src="./index_files/B Letter - Black Background.jpg" id="bat">
+                                       <button type="button" onclick="bfor()" onmousedown="b.play();"> B For...</button>
+                                     </div>
+
+                                     <div class="c">
+                                       <img src="./index_files/C Letter - gold and floral.jpg" id="cat">
+                                       <button type="button" onclick="cfor()" onmousedown="c.play();"> C For...</button>
+                                     </div>
+
+                                     <div class="d">
+                                       <img src="./index_files/D Letter - Pillow.jpg" id="dog">
+                                       <button type="button" onclick="dfor()" onmousedown="d.play();"> D For...</button>
+                                     </div>
+
+                                     <div class="e">
+                                       <img src="./index_files/e letter.jpg" id="end">
+                                       <button type="button" onclick="efor()" onmousedown="e.play();"> E For...</button>
+                                     </div>
+
+
+
+
+
+
+
+
+<div class="box2">
+
+  <div class="f">
+    <img src="./index_files/F Naam Ke - f pink heart.jpg" id="fox">
+    <button type="button" onclick="ffor()" onmousedown="f.play();"> F For...</button>
+  </div>
+
+  <div class="g">
+    <img src="./index_files/G Naam Wale - pink glitter g.jpg" id="god">
+    <button type="button" onclick="gfor()" onmousedown="g.play();"> G For...</button>
+  </div>
+
+  <div class="h">
+    <img src="./index_files/H Naam Ke - blue h.jpg" id="horse">
+    <button type="button" onclick="hfor()" onmousedown="h.play();"> H For...</button>
+  </div>
+
+  <div class="i">
+    <img src="./index_files/I Name - heart i.jpg" id="ink">
+    <button type="button" onclick="ifor()" onmousedown="i.play();"> I For...</button>
+  </div>
+
+  <div class="j">
+    <img src="./index_files/J Naam Wale - letter j.jpg" id="jack">
+    <button type="button" onclick="jfor()" onmousedown="j.play();"> J For...</button>
+  </div>
+</div>
+  </div>
+
+
+
+
+
+  <div class="box3">
+
+    <div class="k">
+      <img src="./index_files/K Naam Wale - abstract k.jpg" id="kite">
+      <button type="button" onclick="kfor()" onmousedown="k.play();"> K For...</button>
+    </div>
+
+    <div class="l">
+      <img src="./index_files/l.jpg" id="long">
+      <button type="button" onclick="lfor()" onmousedown="l.play();"> L For...</button>
+    </div>
+
+    <div class="m">
+      <img src="./index_files/M Naam Ke - pendant m.jpg" id="mad">
+      <button type="button" onclick="mfor()" onmousedown="m.play();">  M For...</button>
+    </div>
+
+    <div class="n">
+      <img src="./index_files/N Name Ka - flowers n.jpg" id="non">
+      <button type="button" onclick="nfor()" onmousedown="n.play();"> N For...</button>
+    </div>
+
+    <div class="o">
+      <img src="./index_files/Name Dp Image - o name dp.jpg" id="oggy">
+      <button type="button" onclick="ofor()" onmousedown="o.play();"> O For...</button>
+    </div>
+  </div>
+
+
+  <div class="box4">
+
+    <div class="p">
+      <img src="./index_files/P Name Wale - pink p.jpg" id="patil">
+      <button type="button" onclick="pfor()" onmousedown="p.play();"> P For...</button>
+    </div>
+
+    <div class="q">
+      <img src="./index_files/Name Dp Image - q name dp.jpg" id="queen">
+      <button type="button" onclick="qfor()" onmousedown="q.play();"> Q For...</button>
+    </div>
+
+    <div class="r">
+      <img src="./index_files/R Naam Wale - silver r.jpg" id="rohit">
+      <button type="button" onclick="rfor()" onmousedown="r.play();">  R For...</button>
+    </div>
+
+    <div class="s">
+      <img src="./index_files/S Naam Ke - flower s.jpg" id="sakii">
+      <button type="button" onclick="sfor()" onmousedown="s.play();"> S For...</button>
+    </div>
+
+    <div class="t">
+      <img src="./index_files/T Letter ! Design.jpg" id="teju">
+      <button type="button" onclick="tfor()" onmousedown="t.play();"> T For...</button>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <div class="box5">
+
+    <div class="u">
+      <img src="./index_files/ul.jpg" id="um">
+      <button type="button" onclick="ufor()" onmousedown="u.play();"> U For...</button>
+    </div>
+
+    <div class="v">
+      <img src="./index_files/V Name - v name ke - dragon v.jpg" id="void">
+      <button type="button" onclick="vfor()" onmousedown="v.play();"> V For...</button>
+    </div>
+
+    <div class="w">
+      <img src="./index_files/Name Dp Image - w name dp.jpg" id="wox">
+      <button type="button" onclick="wfor()" onmousedown="w.play();">  W For...</button>
+    </div>
+
+    <div class="x">
+      <img src="./index_files/x.jpg" id="xxx">
+      <button type="button" onclick="xfor()" onmousedown="x.play();"> X For...</button>
+    </div>
+
+    <div class="y">
+      <img src="./index_files/Y Letter.Blue Letter Y.jpg" id="yedzava">
+      <button type="button" onclick="yfor()" onmousedown="y.play();"> Y For...</button>
+    </div>
+
+    <div class="box6">
+      <div class="z">
+        <img src="z.jpg" id="zzzzz" onclick="z.play()">
+        <button onclick="zfor()" onmousedown="z.play()">Z For...</button>
+      </div>
+    </div>
+  </div>
+
+
+
+    </div>
+<script type="text/javascript">
+
+/*sound*/
+var a =new Audio('a.mp3');
+a.play();
+
+
+var b =new Audio('b.mp3');
+b.play();
+
+var c =new Audio('c.mp3');
+b.play();
+
+var d =new Audio('d.mp3');
+d.play();
+
+var e =new Audio('e.mp3');
+e.play();
+
+var f =new Audio('f.mp3');
+f.play();
+
+var g =new Audio('g.mp3');
+g.play();
+
+var h =new Audio('h.mp3');
+h.play();
+
+var i =new Audio('i.mp3');
+i.play();
+
+var j =new Audio('j.mp3');
+j.play();
+
+var k =new Audio('k.mp3');
+k.play();
+
+var l =new Audio('l.mp3');
+l.play();
+
+var m =new Audio('m.mp3');
+m.play();
+
+var n =new Audio('n.mp3');
+n.play();
+
+var o =new Audio('o.mp3');
+o.play();
+
+var p =new Audio('p.mp3');
+p.play();
+
+var q =new Audio('q.mp3');
+q.play();
+
+var r =new Audio('r.mp3');
+r.play();
+
+var s =new Audio('s.mp3');
+s.play();
+
+var t =new Audio('t.mp3');
+t.play();
+
+var u =new Audio('u.mp3');
+u.play();
+
+var v =new Audio('v.mp3');
+v.play();
+
+var w =new Audio('w.mp3');
+w.play();
+
+var x =new Audio('x.mp3');
+x.play();
+
+var y =new Audio('y.mp3');
+y.play();
+
+var z =new Audio('z.mp3');
+z.play();
+
+
+
+/*for leter a to e functions*/
+  function afor(){
+    document.getElementById('apple').src="RED APPLE.jpg";
+  }
+
+  function bfor(){
+    document.getElementById('bat').src="baseball.jpg";
+  }
+
+  function cfor(){
+    document.getElementById('cat').src="clock.jpg";
+  }
+
+  function dfor(){
+    document.getElementById('dog').src="donkey.jpg";
+  }
+
+  function efor(){
+    document.getElementById('end').src="elephant.webp";
+  }
+
+  /*f to j*/
+
+
+  function ffor(){
+    document.getElementById('fox').src="father1.jpg";
+  }
+
+  function gfor(){
+    document.getElementById('god').src="gm.jpg";
+  }
+
+  function hfor(){
+    document.getElementById('horse').src="hungry.jpg";
+  }
+
+  function ifor(){
+    document.getElementById('ink').src="internet.jpg";
+  }
+
+  function jfor(){
+    document.getElementById('jack').src="justice.jpg";
+  }
+
+  /*k to o*/
+
+
+  function kfor(){
+    document.getElementById('kite').src="kang.jpg";
+  }
+
+  function lfor(){
+    document.getElementById('long').src="london.jpg";
+  }
+
+  function mfor(){
+    document.getElementById('mad').src="monkey.jpg";
+  }
+
+  function nfor(){
+    document.getElementById('non').src="norway.jpg";
+  }
+
+  function ofor(){
+    document.getElementById('oggy').src="overtime.jpg";
+  }
+
+
+
+
+
+
+  /*p to t*/
+
+
+  function pfor(){
+    document.getElementById('patil').src="pilu.jpg";
+  }
+
+  function qfor(){
+    document.getElementById('queen').src="question.jpg";
+  }
+
+  function rfor(){
+    document.getElementById('rohit').src="rabbit.jpg";
+  }
+
+  function sfor(){
+    document.getElementById('sakii').src="superman.jpg";
+  }
+
+  function tfor(){
+    document.getElementById('teju').src="tele.jpg";
+  }
+
+  /*u to y*/
+
+
+  function ufor(){
+    document.getElementById('um').src="underwear.jpg";
+  }
+
+  function vfor(){
+    document.getElementById('void').src="vac.jpg";
+  }
+
+  function wfor(){
+    document.getElementById('wox').src="ww.jpg";
+  }
+
+  function xfor(){
+    document.getElementById('xxx').src="xxx.jpg";
+  }
+
+  function yfor(){
+    document.getElementById('yedzava').src="yyy.jpg";
+  }
+  function zfor()
+  {
+    document.getElementById('zzzzz').src="zebra.jpg";
+  }
+</script>
+
+
+</body></html>
